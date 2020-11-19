@@ -2,41 +2,55 @@
   {
     "id" : 1,
     "name" : "Filet z kurczaka",
-    "author" : "Tomasz"
+    "type": "Danie główne",
+    "author" : "Tomasz",
+    "image" : "recipe-1"
   },
   {
     "id" : 2,
-    "name" : "Filet z kurczaka",
-    "author" : "Tomasz"
+    "name" : "Barszcz z uszkami",
+    "type": "Zupa",
+    "author" : "Tomasz",
+    "image" : "recipe-2"
   },
   {
     "id" : 3,
-    "name" : "Filet z kurczaka",
+    "name" : "Gołąbki",
+    "type": "Danie główne",
     "author" : "Tomasz"
   },
   {
     "id" : 4,
-    "name" : "Filet z kurczaka",
-    "author" : "Tomasz"
+    "name" : "Szarlotka",
+    "type": "Deser",
+    "author" : "Tomasz",
+    "image" : "recipe-4"
   },
   {
     "id" : 5,
-    "name" : "Filet z kurczaka",
-    "author" : "Tomasz"
+    "name" : "Potrawka warzywna",
+    "type": "Danie główne",
+    "author" : "Tomasz",
+    "image" : "recipe-5"
   },
   {
     "id" : 6,
-    "name" : "Filet z kurczaka",
+    "name" : "Tosty",
+    "type": "Śniadanie",
     "author" : "Tomasz"
   },
   {
     "id" : 7,
-    "name" : "Filet z kurczaka",
-    "author" : "Tomasz"
+    "name" : "Kaczka z jabłkami",
+    "type": "Danie główne",
+    "author" : "Tomasz",
+    "image" : "recipe-7"
   },
   {
     "id" : 8,
-    "name" : "Filet z kurczaka",
-    "author" : "Tomasz"
+    "name" : "Shake warzywny",
+    "type": "Śniadanie",
+    "author" : "Tomasz",
+    "image" : "recipe-8"
   }
 ]

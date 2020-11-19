@@ -3,4 +3,5 @@ export interface IRecipe {
   name: string;
   type: string;
   author: string;
+  image?: string;
 }

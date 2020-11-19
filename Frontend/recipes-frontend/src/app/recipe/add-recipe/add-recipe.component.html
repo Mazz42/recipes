@@ -1,3 +1,44 @@
-<p>
-  add-recipe works!
-</p>
+<div class="card">
+  <div class="card-header">
+    Dodaj nowy przepis
+  </div>
+  <div class="card-body">
+    <form [formGroup]="addRecipeForm" (ngSubmit)='onSubmit()'>
+      <div class="form-group col-12">
+        <label for="name">Nazwa</label>
+        <input type="text" class="form-control" formControlName="name">
+        <span *ngIf="!addRecipeForm.get('name').valid && addRecipeForm.get('name').touched" class="error-block">
+          Podaj nazwę potrawy
+        </span>
+      </div>
+      <div class="form-group col-12">
+        <label for="type">Typ</label>
+        <input type="text" class="form-control" formControlName="type">
+        <span *ngIf="!addRecipeForm.get('type').valid && addRecipeForm.get('type').touched" class="error-block">
+          Podaj typ potrawy
+        </span>
+      </div>
+      <div class="form-group col-12">
+        <label for="author">Autor</label>
+        <input type="text" class="form-control" formControlName="author">
+        <span *ngIf="!addRecipeForm.get('author').valid && addRecipeForm.get('author').touched" class="error-block">
+          Podaj autora
+        </span>
+      </div>
+      <div class="form-group col-12">
+        <button type="submit" (click)="onSubmit()" class="btn btn-primary mr-2">Dodaj</button>
+        <button type="reset" class="btn btn-primary">Zresetuj</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<div class="mdc-touch-target-wrapper">
+  <button class="mdc-button mdc-button--touch">
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label" routerLink="/">Strona główna</span>
+    <div class="mdc-button__touch"></div>
+  </button>
+</div>
